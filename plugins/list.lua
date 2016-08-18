@@ -3,8 +3,8 @@
 #ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
 #:((
 # For More Information ....! 
-# Developer : Aziz < @TH3_GHOST > 
-# our channel: @DevPointTeam
+# Developer : hamode < @llual
+# our channel: @Dev_com
 # Version: 1.1
 #:))
 #ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
@@ -13,7 +13,7 @@
 do
 
 local function run(msg, matches)
-if is_momod(msg) and matches[1]== "list1" then
+if is_momod(msg) and matches[1]== "m1" then
 return [[
 🔹اوامر ادارة المجموعات 🔹
 ____________________
@@ -56,13 +56,14 @@ wlc : رسالة الترحيب | 📝
 bye : رسالة الخروج | 🖐
 username : المعرف | @
 ____________________
-Channel : @DevPointCH 🎗
+Dev : - @llual
+Channel : - @Dev_com
 
 ]]
 end
 
 if not is_momod(msg) then
-return "Only managers 😐⛔️"
+return "لتلعب بكيفك 😐⛔️"
 end
 
 end
@@ -70,7 +71,7 @@ return {
 description = "Help list", 
 usage = "Help list",
 patterns = {
-"[#!/](list1)"
+"[#!/](m1)"
 },
 run = run 
 }
