@@ -1,12 +1,12 @@
 do
 
 local function run(msg, matches)
-if is_sudo(msg) and matches[1]== "sudo" then
+if is_sudo(msg) and matches[1]== "vip" then
 return [[
-🃏🔱 BOT NAME 🔱🃏
+🃏🔱 SUPER BOT IRAQ 🔱🃏
 ________________________
-/addbot :: تفعيل البوت | 📢
-/rembot :: الغاء تفعيل البوت | 🔕
+/add :: تفعيل البوت | 📢
+/rem :: الغاء تفعيل البوت | 🔕
 /creategroup :: صنع كروب | ☑️
 /banall :: حضر عام | 📛 
 /unbanall ::  الغاء الحضر العام | 🚫
@@ -27,13 +27,14 @@ ________________________
 /clean + مسح رسائل الكروب :: عدد | 🔱
 /run :: اعادة تشغيل البوت | ♻️
 ________________________
-Dev🔹معرفك
+Dev @llual
+Channel @Dev_com
 
 ]]
 end
 
 if not is_momod(msg) then
-return "Only Sudo 😐⛔️"
+return "بس للمطور حبي 😐⛔️"
 end
 
 end
@@ -41,7 +42,7 @@ return {
 description = "Help list", 
 usage = "sudo list",
 patterns = {
-"[#!/](sudo)"
+"[#!/](vip)"
 },
 run = run 
 }
