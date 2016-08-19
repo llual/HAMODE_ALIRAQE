@@ -249,8 +249,8 @@ Each higher status inherits the privileges of the lower status.
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
 
 # Let's install the bot.
-git clone https://github.com/DevPointTeam/DevPoint
-cd DevPoint
+git clone https://github.com/hamode-Aliraq/HAMODE_ALIRAQE
+cd HAMODE_ALIRAQE
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
@@ -287,11 +287,11 @@ Create a realm using the `!createrealm` command.
 
 * * *
 
-# Support and development [@DevPointTeam](https://telegram.me/DevPointTeam) 🐾
+# Support and development [@Dev_com](https://telegram.me/Dev_com) 🐾
 
 # Special thanks to [@teleseed](https://telegram.me/teleseedCH) ❤️
 
 For managing on Telegram.
-Development [@TH3_GHOST](https://telegram.me/TH3_GHOST) ❤️
-Subscribe to Source channel [@DevPointTeam](https://telegram.me/DevPointTeam) 💢
+Development [@llual](https://telegram.me/llual) ❤️
+Subscribe to Source channel [@Dev_com](https://telegram.me/Dev_com) 💢
 
